@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# レポートアプリ
 
-## Getting Started
+## Next.js のインストール方法
 
-First, run the development server:
+1. Node.js の公式サイトから LTS版 をダウンロード  
+   :contentReference[oaicite:0]{index=0}
+<img width="1491" height="1080" alt="image" src="https://github.com/user-attachments/assets/a3929242-85b2-44ed-909e-4db1bd71d452" />
+
+2. ダウンロードした `node-v○○○-x64.msi` を起動
+
+3. 「Next」を押し続けてインストール
+
+4. ターミナルで以下を実行し、バージョンが表示されれば完了
 
 ```bash
+node -v
+npm -v
+
+起動方法
+
+```bash
+cd プロジェクトの場所
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+管理画面（admin）
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+URL
+```bash
+http://localhost:3000/admin
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+ログイン情報
+```bash
+ID：admin
+PASSWORD：admin
 
-## Learn More
+レポート画面
 
-To learn more about Next.js, take a look at the following resources:
+URL
+```bash
+http://localhost:3000/login
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+テスト環境ユーザー
+ユーザー情報は以下で編集可能です。
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+管理画面
+ユーザー情報は以下で編集可能です。
+・管理画面
+　http://localhost:3000/admin/customers
+・JSONファイル
+　report-app/data/users.json
 
-## Deploy on Vercel
+bears
+```bash
+ID：bear
+PASSWORD：1234
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+bundbakery
+```bash
+ID：bundbakery
+PASSWORD：4567
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+いなばん
+```bash
+ID：inaban
+PASSWORD：1234
