@@ -40,7 +40,7 @@ PASSWORD：admin
 ```bash
 http://localhost:3000/login
 ```
-・テスト環境ユーザー
+・テスト環境ユーザー<br>
  ユーザー情報は以下で編集可能です。<br>
   管理画面<br>
 　 http://localhost:3000/admin/customers<br>
