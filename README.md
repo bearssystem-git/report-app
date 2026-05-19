@@ -16,7 +16,7 @@
 node -v
 npm -v
 ```
-起動方法
+## 起動方法
 
 ```bash
 cd プロジェクトの場所
@@ -24,32 +24,32 @@ npm install
 npm run dev
 ```
 
-管理画面（admin）
+## 管理画面（admin）
 
-URL
+・URL
 ```bash
 http://localhost:3000/admin
 ```
-ログイン情報
+・ログイン情報
 ```bash
 ID：admin
 PASSWORD：admin
 ```
-レポート画面
+## レポート画面
 
-URL
+・URL
 ```bash
 http://localhost:3000/login
 ```
-テスト環境ユーザー
+・テスト環境ユーザー
 ユーザー情報は以下で編集可能です。
 
 管理画面
-ユーザー情報は以下で編集可能です。
-・管理画面
-　http://localhost:3000/admin/customers
-・JSONファイル
-　report-app/data/users.json
+ユーザー情報は以下で編集可能です。<br>
+・管理画面<br>
+　http://localhost:3000/admin/customers<br>
+・JSONファイル<br>
+　report-app/data/users.json<br>
 
 bears
 ```bash
