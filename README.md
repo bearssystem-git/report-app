@@ -47,7 +47,7 @@ PASSWORD：admin
 http://localhost:3000/login
 ```
 ### テスト環境ユーザー
-　ユーザー情報は以下で編集可能です。<br>
+ユーザー情報は以下で編集可能です。<br>
   管理画面<br>
 　 http://localhost:3000/admin/customers<br>
   JSONファイル<br>
