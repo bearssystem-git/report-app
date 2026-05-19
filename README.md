@@ -3,7 +3,7 @@
 ## Next.js のインストール方法
 
 1. Node.js の公式サイトから LTS版 をダウンロード  
-   :contentReference[oaicite:0]{index=0}
+   [:contentReference[oaicite:0]{index=0}](https://nodejs.org/ja?utm_source=chatgpt.com)
 <img width="1491" height="1080" alt="image" src="https://github.com/user-attachments/assets/a3929242-85b2-44ed-909e-4db1bd71d452" />
 
 2. ダウンロードした `node-v○○○-x64.msi` を起動
