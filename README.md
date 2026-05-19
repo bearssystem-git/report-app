@@ -22,24 +22,24 @@ npm -v
 cd プロジェクトの場所
 npm install
 npm run dev
-
+```
 管理画面（admin）
 
 URL
 ```bash
 http://localhost:3000/admin
-
+```
 ログイン情報
 ```bash
 ID：admin
 PASSWORD：admin
-
+```
 レポート画面
 
 URL
 ```bash
 http://localhost:3000/login
-
+```
 テスト環境ユーザー
 ユーザー情報は以下で編集可能です。
 
@@ -54,13 +54,14 @@ bears
 ```bash
 ID：bear
 PASSWORD：1234
-
+```
 bundbakery
 ```bash
 ID：bundbakery
 PASSWORD：4567
-
+```
 いなばん
 ```bash
 ID：inaban
 PASSWORD：1234
+```
