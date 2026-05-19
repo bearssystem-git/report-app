@@ -1,0 +1,13 @@
+{
+  "selectedTemplate": "template1",
+  "templates": {
+    "template1": {
+      "title": "【保守報告書送付のご案内】",
+      "body": "<p>{%company%} <br>{%person%}<br><br>いつもお世話になっております。<br>{%ownCompany%}です。<br><br>{%year%}年{%month%}月の保守が無事に完了いたしましたことをご報告申し上げます。<br>※月初提示予定の2026年3月分も同様に添付致します。<br><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://file.bears-sys.com/14jbd-ylo9lutlevu74smn0wpccbijoqc\">2026年4月保守報告書ダウンロード</a>​<br>​<a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://file.bears-sys.com/1xdxhqwjeaqm2ftaq4tq_dq3lz-imqayw\">2026年３月保守報告書ダウンロード</a>​<br><br>もしご不明点やご質問等がございましたら、どうぞご遠慮無くお知らせください。<br>今後とも何卒よろしくお願い申し上げます。<br><br>{%signature%}</p>"
+    },
+    "template2": {
+      "title": "【営業資料送付】",
+      "body": "ご提案資料を送付いたします。"
+    }
+  }
+}

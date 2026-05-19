@@ -1,0 +1,174 @@
+{
+  "ga": [
+    {
+      "date": "20260401",
+      "current": 15,
+      "previous": 0
+    },
+    {
+      "date": "20260402",
+      "current": 15,
+      "previous": 0
+    },
+    {
+      "date": "20260403",
+      "current": 20,
+      "previous": 0
+    },
+    {
+      "date": "20260404",
+      "current": 24,
+      "previous": 0
+    },
+    {
+      "date": "20260405",
+      "current": 30,
+      "previous": 0
+    },
+    {
+      "date": "20260406",
+      "current": 20,
+      "previous": 0
+    },
+    {
+      "date": "20260407",
+      "current": 4,
+      "previous": 0
+    },
+    {
+      "date": "20260408",
+      "current": 12,
+      "previous": 0
+    },
+    {
+      "date": "20260409",
+      "current": 12,
+      "previous": 0
+    },
+    {
+      "date": "20260410",
+      "current": 19,
+      "previous": 0
+    },
+    {
+      "date": "20260411",
+      "current": 14,
+      "previous": 0
+    },
+    {
+      "date": "20260412",
+      "current": 14,
+      "previous": 0
+    },
+    {
+      "date": "20260413",
+      "current": 21,
+      "previous": 0
+    },
+    {
+      "date": "20260414",
+      "current": 10,
+      "previous": 0
+    },
+    {
+      "date": "20260415",
+      "current": 7,
+      "previous": 0
+    },
+    {
+      "date": "20260416",
+      "current": 13,
+      "previous": 0
+    },
+    {
+      "date": "20260417",
+      "current": 15,
+      "previous": 0
+    },
+    {
+      "date": "20260418",
+      "current": 21,
+      "previous": 0
+    },
+    {
+      "date": "20260419",
+      "current": 18,
+      "previous": 0
+    },
+    {
+      "date": "20260420",
+      "current": 11,
+      "previous": 0
+    },
+    {
+      "date": "20260421",
+      "current": 13,
+      "previous": 0
+    },
+    {
+      "date": "20260422",
+      "current": 16,
+      "previous": 0
+    },
+    {
+      "date": "20260423",
+      "current": 7,
+      "previous": 0
+    },
+    {
+      "date": "20260424",
+      "current": 15,
+      "previous": 0
+    },
+    {
+      "date": "20260425",
+      "current": 22,
+      "previous": 0
+    },
+    {
+      "date": "20260426",
+      "current": 12,
+      "previous": 0
+    },
+    {
+      "date": "20260427",
+      "current": 12,
+      "previous": 0
+    },
+    {
+      "date": "20260428",
+      "current": 14,
+      "previous": 0
+    },
+    {
+      "date": "20260429",
+      "current": 20,
+      "previous": 0
+    },
+    {
+      "date": "20260430",
+      "current": 7,
+      "previous": 0
+    }
+  ],
+  "kpi": {
+    "current": {
+      "users": 441,
+      "newUsers": 409,
+      "sessions": 533,
+      "pageviews": 686,
+      "avgTime": 122.46473805440901,
+      "bounceRate": 0.5347091932457786,
+      "sessionsPerUser": 1.228110599078341
+    },
+    "previous": {
+      "users": 669,
+      "newUsers": 633,
+      "sessions": 805,
+      "pageviews": 963,
+      "avgTime": 88.12155125714287,
+      "bounceRate": 0.5714285714285714,
+      "sessionsPerUser": 1.2178517397881996
+    }
+  }
+}

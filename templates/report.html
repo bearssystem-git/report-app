@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body { font-family: sans-serif; padding: 40px; }
+    h1 { font-size: 24px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+    td, th { border: 1px solid #ccc; padding: 8px; }
+  </style>
+</head>
+<body>
+
+<h1>{{customer}} レポート（{{month}}）</h1>
+
+<p>ユーザー数：{{users}}</p>
+<p>セッション数：{{sessions}}</p>
+
+<h2>参照元</h2>
+<table>
+  <tr>
+    <th>No</th>
+    <th>参照元</th>
+    <th>ユーザー数</th>
+  </tr>
+  {{rows}}
+</table>
+
+</body>
+</html>

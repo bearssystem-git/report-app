@@ -1,0 +1,52 @@
+{
+  "ga": [
+    { "date": "20260201", "current": 7, "previous": 0 },
+    { "date": "20260202", "current": 5, "previous": 0 },
+    { "date": "20260203", "current": 8, "previous": 0 },
+    { "date": "20260204", "current": 4, "previous": 0 },
+    { "date": "20260205", "current": 6, "previous": 0 },
+    { "date": "20260206", "current": 9, "previous": 0 },
+    { "date": "20260207", "current": 5, "previous": 0 },
+    { "date": "20260208", "current": 7, "previous": 0 },
+    { "date": "20260209", "current": 10, "previous": 0 },
+    { "date": "20260210", "current": 8, "previous": 0 },
+    { "date": "20260211", "current": 6, "previous": 0 },
+    { "date": "20260212", "current": 4, "previous": 0 },
+    { "date": "20260213", "current": 5, "previous": 0 },
+    { "date": "20260214", "current": 9, "previous": 0 },
+    { "date": "20260215", "current": 11, "previous": 0 },
+    { "date": "20260216", "current": 7, "previous": 0 },
+    { "date": "20260217", "current": 10, "previous": 0 },
+    { "date": "20260218", "current": 6, "previous": 0 },
+    { "date": "20260219", "current": 5, "previous": 0 },
+    { "date": "20260220", "current": 8, "previous": 0 },
+    { "date": "20260221", "current": 7, "previous": 0 },
+    { "date": "20260222", "current": 9, "previous": 0 },
+    { "date": "20260223", "current": 6, "previous": 0 },
+    { "date": "20260224", "current": 8, "previous": 0 },
+    { "date": "20260225", "current": 3, "previous": 0 },
+    { "date": "20260226", "current": 4, "previous": 0 },
+    { "date": "20260227", "current": 5, "previous": 0 },
+    { "date": "20260228", "current": 7, "previous": 0 }
+  ],
+  "kpi": {
+    "current": {
+      "users": 154,
+      "newUsers": 143,
+      "sessions": 182,
+      "pageviews": 302,
+      "avgTime": 71.8,
+      "bounceRate": 0.56,
+      "sessionsPerUser": 1.18
+    },
+    "previous": {
+      "users": 142,
+      "newUsers": 131,
+      "sessions": 171,
+      "pageviews": 281,
+      "avgTime": 68.5,
+      "bounceRate": 0.58,
+      "sessionsPerUser": 1.20
+    }
+  }
+}

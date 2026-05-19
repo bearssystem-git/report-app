@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Windows",
+    "users": 121
+  },
+  {
+    "name": "Macintosh",
+    "users": 15
+  },
+  {
+    "name": "Linux",
+    "users": 12
+  },
+  {
+    "name": "iOS",
+    "users": 7
+  },
+  {
+    "name": "Android",
+    "users": 1
+  },
+  {
+    "name": "Chrome OS",
+    "users": 1
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "maintenance": [
+    {
+      "text": "ページの見切れ",
+      "status": "OK"
+    },
+    {
+      "text": "PC版レイアウトの崩れ",
+      "status": "OK"
+    },
+    {
+      "text": "スマートフォン版レイアウトの崩れ",
+      "status": "OK"
+    },
+    {
+      "text": "リンク切れ",
+      "status": "OK"
+    },
+    {
+      "text": "お問い合わせフォーム動作確認",
+      "status": "OK"
+    },
+    {
+      "text": "Google Analytics / Search Console確認",
+      "status": "OK"
+    },
+    {
+      "text": "サイトマップ更新",
+      "status": "OK"
+    },
+    {
+      "text": "WordPress セキュリティ確認",
+      "status": "OK"
+    }
+  ],
+  "updates": [
+    {
+      "title": "WordPress 6.4.3へ更新",
+      "desc": "定期メンテナンスとして実施しました。"
+    },
+    {
+      "title": "プラグイン更新",
+      "desc": "定期メンテナンスとして実施しました。"
+    },
+    {
+      "title": "テーマ更新",
+      "desc": "定期メンテナンスとして実施しました。"
+    },
+    {
+      "title": "セキュリティパッチ適用",
+      "desc": "定期メンテナンスとして実施しました。"
+    },
+    {
+      "title": "表示崩れ修正",
+      "desc": "定期メンテナンスとして実施しました。"
+    },
+    {
+      "title": "SEO設定見直し",
+      "desc": "定期メンテナンスとして実施しました。"
+    }
+  ]
+}

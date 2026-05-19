@@ -1,0 +1,55 @@
+{
+  "ga": [
+    { "date": "20260301", "current": 8, "previous": 0 },
+    { "date": "20260302", "current": 6, "previous": 0 },
+    { "date": "20260303", "current": 9, "previous": 0 },
+    { "date": "20260304", "current": 5, "previous": 0 },
+    { "date": "20260305", "current": 7, "previous": 0 },
+    { "date": "20260306", "current": 10, "previous": 0 },
+    { "date": "20260307", "current": 6, "previous": 0 },
+    { "date": "20260308", "current": 8, "previous": 0 },
+    { "date": "20260309", "current": 12, "previous": 0 },
+    { "date": "20260310", "current": 9, "previous": 0 },
+    { "date": "20260311", "current": 7, "previous": 0 },
+    { "date": "20260312", "current": 5, "previous": 0 },
+    { "date": "20260313", "current": 6, "previous": 0 },
+    { "date": "20260314", "current": 11, "previous": 0 },
+    { "date": "20260315", "current": 13, "previous": 0 },
+    { "date": "20260316", "current": 8, "previous": 0 },
+    { "date": "20260317", "current": 12, "previous": 0 },
+    { "date": "20260318", "current": 7, "previous": 0 },
+    { "date": "20260319", "current": 6, "previous": 0 },
+    { "date": "20260320", "current": 10, "previous": 0 },
+    { "date": "20260321", "current": 8, "previous": 0 },
+    { "date": "20260322", "current": 11, "previous": 0 },
+    { "date": "20260323", "current": 7, "previous": 0 },
+    { "date": "20260324", "current": 9, "previous": 0 },
+    { "date": "20260325", "current": 4, "previous": 0 },
+    { "date": "20260326", "current": 5, "previous": 0 },
+    { "date": "20260327", "current": 6, "previous": 0 },
+    { "date": "20260328", "current": 8, "previous": 0 },
+    { "date": "20260329", "current": 5, "previous": 0 },
+    { "date": "20260330", "current": 9, "previous": 0 },
+    { "date": "20260331", "current": 11, "previous": 0 }
+  ],
+  "kpi": {
+    "current": {
+      "users": 162,
+      "newUsers": 150,
+      "sessions": 191,
+      "pageviews": 328,
+      "avgTime": 73.4,
+      "bounceRate": 0.55,
+      "sessionsPerUser": 1.19
+    },
+    "previous": {
+      "users": 154,
+      "newUsers": 143,
+      "sessions": 182,
+      "pageviews": 302,
+      "avgTime": 71.8,
+      "bounceRate": 0.56,
+      "sessionsPerUser": 1.18
+    }
+  }
+}

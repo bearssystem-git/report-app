@@ -1,0 +1,26 @@
+[
+  {
+    "name": "(direct)",
+    "users": 118
+  },
+  {
+    "name": "google",
+    "users": 24
+  },
+  {
+    "name": "yahoo",
+    "users": 3
+  },
+  {
+    "name": "bing",
+    "users": 2
+  },
+  {
+    "name": "sales-crowd.jp",
+    "users": 2
+  },
+  {
+    "name": "(not set)",
+    "users": 1
+  }
+]
