@@ -47,23 +47,23 @@ PASSWORD：admin
 http://localhost:3000/login
 ```
 ・テスト環境ユーザー<br>
-ユーザー情報は以下で編集可能です。<br>
+ ユーザー情報は以下で編集可能です。<br>
   管理画面<br>
 　 http://localhost:3000/admin/customers<br>
   JSONファイル<br>
 　 report-app/data/users.json<br>
 
-bears
+1. bears
 ```bash
 ID：bear
 PASSWORD：1234
 ```
-bundbakery
+2. bundbakery
 ```bash
 ID：bundbakery
 PASSWORD：4567
 ```
-いなばん
+3. いなばん
 ```bash
 ID：inaban
 PASSWORD：1234
