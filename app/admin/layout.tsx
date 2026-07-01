@@ -54,6 +54,19 @@ export default function AdminLayout({
             レポート作成
           </Link>
 
+          {/* レポート更新 */}
+          <Link
+            href="/admin/report-update"
+            style={{
+              fontSize: 23,
+              fontWeight: 600,
+              color: "#0f172a",
+              textDecoration: "none",
+            }}
+          >
+            レポート更新
+          </Link>
+
           {/* 顧客管理 */}
           <Link
             href="/admin/customers"

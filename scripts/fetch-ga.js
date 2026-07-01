@@ -31,21 +31,19 @@ function getMonthRange(offset) {
 }
 
 async function main() {
-  const credentials = JSON.parse(fs.readFileSync("./scripts/oauth.json"));
-  const { client_secret, client_id, redirect_uris } = credentials.installed;
+  const auth =
+  new google.auth.GoogleAuth({
+    keyFile:
+      "./keys/ga-service-account.json",
 
-  const oAuth2Client = new google.auth.OAuth2(
-    client_id,
-    client_secret,
-    redirect_uris[0]
-  );
-
-  const token = fs.readFileSync("./scripts/token.json");
-  oAuth2Client.setCredentials(JSON.parse(token));
+    scopes: [
+      "https://www.googleapis.com/auth/analytics.readonly",
+    ],
+  });
 
   const analyticsData = google.analyticsdata({
     version: "v1beta",
-    auth: oAuth2Client,
+    auth,
   });
 
   const currentRange = getMonthRange(1);

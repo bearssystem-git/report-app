@@ -42,3 +42,5 @@ next-env.d.ts
 
 /scripts/token.json
 /scripts/oauth.json
+
+keys/
