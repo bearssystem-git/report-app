@@ -7,6 +7,8 @@ export async function POST(
 ) {
 
   const {
+    fromMail,
+    senderName,
     target,
     title,
     body,
@@ -28,6 +30,23 @@ export async function POST(
     )
   );
 
+  // ===== signature.json =====
+  const signaturePath = path.join(
+    process.cwd(),
+    "data",
+    "signature.json"
+  );
+
+  const signatureJson = JSON.parse(
+    fs.readFileSync(
+      signaturePath,
+      "utf-8"
+    )
+  );
+
+const signature =
+  (signatureJson.signature ?? "")
+    .replace(/\n/g, "<br>");
   // ===== transporter =====
   const transporter =
   nodemailer.createTransport({
@@ -116,28 +135,28 @@ export async function POST(
         )
         .replace(
           /{%signature%}/g,
-          `
-        ――――――――――――――――――――――――――――――<br>
-        株式会社BearsSystem<br>
-        中田 真由美<br>
-        TEL：043-214-7030<br>
-        Mail：info@bears-sys.com<br>
-        URL：https://bears-sys.com/<br>
-        ――――――――――――――――――――――――――――――
-        `
-        );
+          signature
+        )
 
-    const htmlBody =
-      parsedBody.replace(
-        /\n\n/g,
-        "<br><br>"
-      );
+    const htmlBody = `
+    <div
+      style="
+        font-family:'Yu Gothic','游ゴシック',Meiryo,sans-serif;
+        font-size:10.5pt;
+        color:#000000;
+        line-height:1.2;
+      "
+    >
+      ${parsedBody.replace(/\n/g, "<br>")}
+    </div>
+    `;
 
     // メール送信
+    console.log(htmlBody);
     await transporter.sendMail({
 
       from:
-        process.env.MAIL_USER,
+        `"${senderName}" <${fromMail}>`,
 
       to:
         user.email,

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "info",
+    "name": "株式会社BearsSystem",
+    "email": "info@bears-sys.com",
+    "signature": "株式会社BearsSystem\n担当：ベアーズ太郎"
+  },
+  {
+    "id": "bearec",
+    "name": "保険のサポート",
+    "email": "bearec@bears-sys.com",
+    "signature": "保険の窓口\n bearec@bears-sys.com"
+  },
+  {
+    "id": "bearpc",
+    "name": "保守サポート",
+    "email": "bearpc@bears-sys.com",
+    "signature": "保守サポート窓口\nbearpc@bears-sys.com"
+  }
+]

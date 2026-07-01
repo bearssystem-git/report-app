@@ -24,6 +24,10 @@ export default function Page() {
     useState("");
   const [copied, setCopied] =
     useState(false);
+  const [fromMail, setFromMail] =
+    useState("info@bears-sys.com");
+  const [senders, setSenders] =
+    useState<any[]>([]);
 
   const [
     showSignaturePopup,
@@ -58,7 +62,13 @@ export default function Page() {
   // ===== 初期読込 =====
     useEffect(() => {
 
-      fetch("/api/users")
+    fetch("/api/mail-senders")
+      .then((res) => res.json())
+      .then((data) => {
+        setSenders(data);
+      });
+
+    fetch("/api/users")
         .then((res) => res.json())
         .then((data) => {
 
@@ -90,6 +100,8 @@ fetch("/api/mail-template")
       loadedTemplates
     );
 
+
+    
     const selected =
       data.selectedTemplate ??
       "template1";
@@ -302,6 +314,11 @@ await fetch(
     );
 
     // メール送信
+    const sender =
+      senders.find(
+        (s) => s.email === fromMail
+      );
+
     const res = await fetch(
       "/api/send-mail",
       {
@@ -310,13 +327,15 @@ await fetch(
           "Content-Type":
             "application/json",
         },
-        body: JSON.stringify({
 
+        body: JSON.stringify({
+          fromMail,
           target,
           title,
           body,
           bcc,
           ownCompany,
+          senderName: sender?.name,
         }),
       }
     );
@@ -399,18 +418,21 @@ await fetch(
 
   allMonths.sort();
 
-  const latestMonth =
-    allMonths[
-      allMonths.length - 1
-    ] ?? "2026-04";
+const now = new Date();
+now.setMonth(now.getMonth() - 1);
+
+const defaultMonth = `${now.getFullYear()}-${String(
+  now.getMonth() + 1
+).padStart(2, "0")}`;
+
+const latestMonth =
+  allMonths[allMonths.length - 1] ?? defaultMonth;
 
   const [
     currentYear,
     currentMonth,
   ] = latestMonth.split("-");
-
-  const now = new Date();
-
+  
   const year =
     String(
       now.getFullYear()
@@ -451,6 +473,40 @@ return (
 
           {/* 宛先 */}
           <div className="mb-2">
+
+
+<div className="mb-4">
+  <label className="text-lg font-bold mb-2 text-slate-800">
+    差出人
+  </label>
+
+  <select
+    value={fromMail}
+    onChange={(e) =>
+      setFromMail(e.target.value)
+    }
+    className="
+      border
+      rounded
+      px-2
+      py-1
+      w-full
+    "
+  >
+
+{senders.map((sender) => (
+  <option
+    key={sender.email}
+    value={sender.email}
+  >
+    {sender.name}
+    ({sender.email})
+  </option>
+))}
+
+  </select>
+</div>
+
 
             <div className="text-lg font-bold mb-2 text-slate-800">
               宛先
@@ -1145,4 +1201,3 @@ dangerouslySetInnerHTML={{
   );
 
 }
-
